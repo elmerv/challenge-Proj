@@ -1,5 +1,7 @@
 # ChallengeProj
 
+This project is a challenge that describes how to use constructors and classes in typescript in order to create a frontend that is able to add strings to an array and then display the array using ngfor. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
 ## Development server
