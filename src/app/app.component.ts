@@ -7,11 +7,19 @@ import { ArrayComponent } from './array/array.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  val : String; 
+
   arrComp: ArrayComponent = new ArrayComponent(); 
   title = 'challenge-Proj';
-}
 
-function addToList(){ 
-  let appComp = new AppComponent(); 
-  appComp.arrComp.ListAdd("hello"); 
+  constructor(){
+    this.val = '';
+  }
+
+addToList(){ 
+  this.arrComp.ListAdd(this.val); 
+  console.log(this.arrComp.list);
+  this.val = '';
+}
 }

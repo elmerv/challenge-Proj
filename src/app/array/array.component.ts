@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./array.component.css']
 })
 export class ArrayComponent implements OnInit {
-  public list: string[] = [];
+  public list: String[] = [];
   constructor() {
     this.list = [];
   }
@@ -14,7 +14,7 @@ export class ArrayComponent implements OnInit {
   ngOnInit(): void {
 
   }
-  ListAdd(word:string) {
+  ListAdd(word:String) {
     this.list.push(word);
   }
 }

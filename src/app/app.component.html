@@ -1,0 +1,6 @@
+<h1>Please input a string. Not a number! </h1>
+<input ng-model = "" [(ngModel)] = "val"/>
+<button (click) = "addToList()">Add String to Array</button>
+<div>
+   <h1 *ngFor = "let string of arrComp.list" > {{string}}</h1> 
+</div> 
